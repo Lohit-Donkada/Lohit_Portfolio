@@ -1,0 +1,62 @@
+/* App.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #333;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+img.rounded-circle {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #343a40;
+}
+
+.resume-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.resume-card ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.resume-card ul li:last-child {
+  border-bottom: none;
+}
