@@ -27,84 +27,82 @@ function App() {
       {/* About Me */}
       <section id="about" className="p-5 bg-light text-center">
         <div className="container">
-          <img src="/photo.jpg" className="rounded-circle mb-3" alt="Profile" />
+          <img src={`${process.env.PUBLIC_URL}/photo.jpg`} className="rounded-circle mb-3" alt="Profile" />
           <h2>About Me</h2>
           <p>Passionate Computer Science student with a keen interest in machine learning and Python 
-programming, I thrive on deciphering intricate logic puzzles and solving challenging problems. I 
-actively engage in competitive coding, specializing in DSA problems using C++, and my enthusiasm 
-for mathematics and logic drives my analytical approach. I am eager to leverage my skills to devise 
-innovative, data-driven solutions and contribute meaningfully to organizational success. </p>
+          programming, I thrive on deciphering intricate logic puzzles and solving challenging problems. I 
+          actively engage in competitive coding, specializing in DSA problems using C++, and my enthusiasm 
+          for mathematics and logic drives my analytical approach. I am eager to leverage my skills to devise 
+          innovative, data-driven solutions and contribute meaningfully to organizational success. </p>
         </div>
       </section>
 
       {/* Resume */}
-      {/* Resume */}
-<section id="resume" className="p-5 text-center bg-light">
-  <div className="container">
-    <h2>Resume</h2>
-    <p>
-      Download my full resume{" "}
-      <a href="/Donkada_Siva_Sai_Lohit_Patnaik_Resume.pdf" target="_blank" rel="noopener noreferrer">
-        here
-      </a>.
-    </p>
-    <div className="row justify-content-center">
-      <div className="col-md-8">
-        <div className="card resume-card shadow-sm">
-          <div className="card-body">
-            <h5 className="mb-3">Overview</h5>
-            <ul className="list-unstyled text-start">
-              <li><strong>🎓 Education:</strong> B.Tech in Computer Science</li>
-              <li><strong>💼 Experience:</strong> Internship in Google AIML through AICTE</li>
-              <li><strong>📜 Certifications:</strong> CCC Web Development Certification</li>
-            </ul>
+      <section id="resume" className="p-5 text-center bg-light">
+        <div className="container">
+          <h2>Resume</h2>
+          <p>
+            Download my full resume{" "}
+            <a href={`${process.env.PUBLIC_URL}/Donkada_Siva_Sai_Lohit_Patnaik_Resume.pdf`} target="_blank" rel="noopener noreferrer">
+              here
+            </a>.
+          </p>
+          <div className="row justify-content-center">
+            <div className="col-md-8">
+              <div className="card resume-card shadow-sm">
+                <div className="card-body">
+                  <h5 className="mb-3">Overview</h5>
+                  <ul className="list-unstyled text-start">
+                    <li><strong>🎓 Education:</strong> B.Tech in Computer Science</li>
+                    <li><strong>💼 Experience:</strong> Internship in Google AIML through AICTE</li>
+                    <li><strong>📜 Certifications:</strong> CCC Web Development Certification</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
-     {/* Skills */}
-<section id="skills" className="p-5 bg-light">
-  <div className="container">
-    <h2 className="text-center mb-4">Skills</h2>
-    <div className="row text-center">
-      <div className="col-md-4 mb-4">
-        <div className="resume-card p-4 h-100">
-          <h5>Frontend</h5>
-          <ul className="list-unstyled">
-            <li>React</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-          </ul>
+      {/* Skills */}
+      <section id="skills" className="p-5 bg-light">
+        <div className="container">
+          <h2 className="text-center mb-4">Skills</h2>
+          <div className="row text-center">
+            <div className="col-md-4 mb-4">
+              <div className="resume-card p-4 h-100">
+                <h5>Frontend</h5>
+                <ul className="list-unstyled">
+                  <li>React</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="resume-card p-4 h-100">
+                <h5>Tools</h5>
+                <ul className="list-unstyled">
+                  <li>VS Code</li>
+                  <li>Bootstrap</li>
+                  <li>Git</li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div className="resume-card p-4 h-100">
+                <h5>Soft Skills</h5>
+                <ul className="list-unstyled">
+                  <li>Teamwork</li>
+                  <li>Communication</li>
+                  <li>Leadership</li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="col-md-4 mb-4">
-        <div className="resume-card p-4 h-100">
-          <h5>Tools</h5>
-          <ul className="list-unstyled">
-            <li>VS Code</li>
-            <li>Bootstrap</li>
-            <li>Git</li>
-          </ul>
-        </div>
-      </div>
-      <div className="col-md-4 mb-4">
-        <div className="resume-card p-4 h-100">
-          <h5>Soft Skills</h5>
-          <ul className="list-unstyled">
-            <li>Teamwork</li>
-            <li>Communication</li>
-            <li>Leadership</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+      </section>
 
       {/* Projects */}
       <section id="projects" className="p-5 text-center">
@@ -141,7 +139,7 @@ innovative, data-driven solutions and contribute meaningfully to organizational 
       <section id="contact" className="p-5 bg-light text-center">
         <div className="container">
           <h2>Contact</h2>
-          <p>Email: lohitdonkada@gmail.com| Phone: +91 63033 88645</p>
+          <p>Email: lohitdonkada@gmail.com | Phone: +91 63033 88645</p>
         </div>
       </section>
 
