@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Lohit_Portfolio/static/css/main.14c747ab.css",
+    "main.js": "/Lohit_Portfolio/static/js/main.68cb6743.js",
+    "index.html": "/Lohit_Portfolio/index.html",
+    "main.14c747ab.css.map": "/Lohit_Portfolio/static/css/main.14c747ab.css.map",
+    "main.68cb6743.js.map": "/Lohit_Portfolio/static/js/main.68cb6743.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14c747ab.css",
+    "static/js/main.68cb6743.js"
+  ]
+}
